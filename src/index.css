@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-bg: #090909;
+  --color-surface: #111111;
+  --color-surface-raised: #1a1a1a;
+  --color-border: #262626;
+  --color-text: #ededed;
+  --color-text-muted: #888888;
+  --color-accent: #6ea8fe;
+  --color-accent-hover: #93bbfd;
+  --color-green: #4ade80;
+  --color-purple: #a78bfa;
+  --color-orange: #fb923c;
+  --color-pink: #f87171;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bg text-text font-sans antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 25%, transparent);
+}
+
+.section-label {
+  @apply text-[11px] uppercase tracking-[0.2em] text-text-muted font-medium;
+}
+
+.heading-display {
+  font-family: var(--font-serif);
+  @apply font-normal tracking-tight text-text;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-text text-bg text-sm font-medium transition-colors hover:bg-white;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-md border border-border text-sm font-medium text-text transition-colors hover:border-text-muted hover:bg-surface;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.6s ease-out forwards;
+}
