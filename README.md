@@ -24,7 +24,7 @@ Git Graph UI is a free Git client for Windows. It puts your commit history in a 
 
 ## Download
 
-Get the latest Windows installer from our [GitHub releases page](https://github.com/HarshP34/git-graph-ui-releases).
+Get the latest Windows installer from our [GitHub releases page](https://github.com/HarshP34/gitgraphui-releases).
 
 **Requirements:** Windows 10 or later (64-bit). Git for Windows recommended for SSH remotes.
 
@@ -46,7 +46,7 @@ Everything is free — no account, no subscription.
 
 ## Updates
 
-Installed apps check [GitHub Releases](https://github.com/HarshP34/git-graph-ui-releases) for new versions and can update automatically.
+Installed apps check [GitHub Releases](https://github.com/HarshP34/gitgraphui-releases) for new versions and can update automatically.
 
 ## Support
 
@@ -55,4 +55,4 @@ Questions, bug reports, or feedback — use the contact form on [gitgraphui.com]
 ## Links
 
 - **Website:** [gitgraphui.com](https://www.gitgraphui.com)
-- **Downloads & releases:** [github.com/HarshP34/git-graph-ui-releases](https://github.com/HarshP34/git-graph-ui-releases)
+- **Downloads & releases:** [github.com/HarshP34/gitgraphui-releases](https://github.com/HarshP34/gitgraphui-releases)
