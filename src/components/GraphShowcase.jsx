@@ -19,8 +19,8 @@ const highlights = [
 export default function GraphShowcase() {
   return (
     <div className="mt-20 pt-16 border-t border-border">
-      <div className="grid lg:grid-cols-[1fr_1.35fr] gap-12 items-start">
-        <div>
+      <div className="grid lg:grid-cols-[minmax(0,22rem)_minmax(0,1fr)] gap-10 lg:gap-x-14 items-start">
+        <div className="lg:max-w-sm">
           <p className="section-label mb-4">Commit graph</p>
           <h3 className="heading-display text-2xl md:text-3xl mb-4">
             The view that sold us on building this
@@ -40,8 +40,9 @@ export default function GraphShowcase() {
         </div>
 
         <AppScreenshot
-          src={SCREENSHOTS.graph}
-          alt="Git Graph UI commit graph with branch panel and toolbar"
+          src={SCREENSHOTS.graphFocus}
+          alt="Git Graph UI commit graph with branch lanes, commit messages, and hashes"
+          className="w-full lg:mt-8"
         />
       </div>
     </div>

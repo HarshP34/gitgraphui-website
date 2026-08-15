@@ -12,6 +12,7 @@ export const LINKS = {
 
 export const SCREENSHOTS = {
   graph: '/screenshots/graph.png',
+  graphFocus: '/screenshots/graph-focus.png',
   diff: '/screenshots/file-diffs.png',
   conflict: '/screenshots/merge-conflict.png',
 }
