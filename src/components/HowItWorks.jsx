@@ -27,8 +27,7 @@ export default function HowItWorks() {
           <p className="section-label mb-4">How it works</p>
           <h2 className="heading-display text-3xl md:text-4xl mb-4">Runs on your machine</h2>
           <p className="text-text-muted leading-relaxed">
-            Git executes locally. Your repos never leave your PC — the optional cloud
-            account is only for billing and preferences.
+            Git executes locally. Your repos never leave your PC — no account or subscription required.
           </p>
         </div>
 
@@ -58,10 +57,6 @@ export default function HowItWorks() {
                 <span className="w-2 h-2 rounded-full bg-orange" />
                 WebSocket ← file watcher
               </div>
-              <div className="flex items-center gap-2 mt-1">
-                <span className="w-2 h-2 rounded-full bg-accent" />
-                Cloud API (optional) — auth & billing
-              </div>
             </div>
           </div>
         </div>
@@ -85,7 +80,7 @@ export default function HowItWorks() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckIcon />
-                  No private key data sent to the cloud
+                  No private key data leaves your machine
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckIcon />

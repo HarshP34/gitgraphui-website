@@ -69,7 +69,7 @@ export const FAQ = [
   },
   {
     q: 'Does it work offline?',
-    a: 'Git runs on your machine via a local server. The app stays usable without internet. Only optional account features need a connection.',
+    a: 'Git runs on your machine via a local server. The app works fully offline — internet is only needed for push, pull, fetch, and checking for updates.',
   },
   {
     q: 'What Git hosts are supported?',
