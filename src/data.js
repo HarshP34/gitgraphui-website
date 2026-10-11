@@ -23,7 +23,7 @@ export const FEATURES = [
     title: 'Visual commit graph',
     description:
       'Branch lanes, author avatars, and live refresh when your repo changes — history you can actually read.',
-    highlights: ['Colored branch lanes', 'Right-click context menus', 'Zoom 30%–300%'],
+    highlights: ['Colored branch lanes', 'Right-click context menus', 'Zoom 90%–120%'],
   },
   {
     icon: 'diff',
@@ -98,7 +98,7 @@ export const FAQ = [
 ]
 
 export const INCLUDED_FEATURES = [
-  '1 open repo tab',
+  'Multi-repo support (up to 3 tabs)',
   '1,000 commits history depth',
   'Core Git operations',
   'Conflict resolution',
